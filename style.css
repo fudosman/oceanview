@@ -1,0 +1,161 @@
+/* general styling */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+img{
+    max-width: 100%;
+}
+
+/* aside style */
+.aside{
+    background-color: #36404a;
+    line-height: 2.5rem;
+    padding-bottom: 4rem;
+    height: 50%;
+    
+}
+.aside-section-two{
+    border-top: 2px solid #bebebe;
+    font-size: 1rem;
+    padding: 2rem 1rem;
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    
+}
+
+.photo img{
+    border-radius: circle;
+    border-radius: 5rem;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: silver;
+}
+
+/* table styling */
+td {
+    border: 2px solid silver;
+    width: 15rem;
+    padding: 0.5rem;
+    border-collapse: collapse;
+}
+table{
+    max-width: 100%;
+    border-collapse: collapse;
+}
+.table-section{
+    background-color: #323b44;
+    padding: 1.5rem;
+    color: silver;
+    border-radius: .2rem;
+    border-collapse: collapse;
+}
+
+/* container */
+.container{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 5px; 
+}
+
+/* dashboard */
+.dashboard{
+    background-color: #36404a;
+    color: silver;
+    padding: 1.5rem;
+    line-height: .4rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.25rem;
+}
+
+/* revenue-sale-stores-user */
+.revenue-sale-stores-user{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+/* latest-panel */
+.latest-panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    
+}
+
+/* main */
+.main{
+    margin: 1.5rem 2rem  4rem 2rem;
+}
+
+/* masthead */
+.masthead{
+    margin: 1.5rem 0;
+}
+.masthead img{
+    border-radius: 0.2rem;
+}
+
+
+/* latest-card */
+.latest-card ol{
+    margin-left: -1.5rem;
+    line-height: 1.5rem;
+}
+.latest-card h2{
+border-bottom: 2px solid silver;
+padding-bottom: 1rem;
+}
+.latest-card{
+    background-color: #dedede;
+    color: #36404a;
+    padding: 1.5rem;
+    border-radius: .2rem;
+}
+
+#card2{
+    background-color: #bebebe;
+    
+}
+#card2 h2{
+    border-bottom: 2px solid white;
+}
+#card3{
+    background-color: #323b44;
+    color: silver;
+}
+/* notification */
+.notification{
+    line-height: 0.3rem;
+    background-color: #36404a;
+    border-radius: .25rem;
+    color: silver;
+    padding: 1rem;
+}
+.notification p:first-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* for screens lower than 800px */
+@media screen and (max-width:800px){
+     @import url(sytle2.css);
+}
